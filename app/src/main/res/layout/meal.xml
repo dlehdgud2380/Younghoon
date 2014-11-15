@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:screenOrientation="landscape"
+    tools:context=".MealActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/lunch"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/lunchmon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/lunchtue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/lunchwed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/lunchthu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/lunchfri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/dinner"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinnermon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinnertue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinnerwed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinnerthu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+        <TextView
+            android:id="@+id/dinnerfri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardbg"
+            android:padding="10dp"
+            android:text="New Text"
+            android:textColor="#33b5e5" />
+
+    </LinearLayout>
+</ScrollView>

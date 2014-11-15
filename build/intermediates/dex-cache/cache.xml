@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/classes-846eefc0b9eb4f75e7ecfcc501a9abfe3badeccf.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d258c66b039a06694f7d7f716e1b14077db9e6d7.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/android_meal_library-5-58842c3858fe629df8e494a062ba457b5a56c679.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/android_meal_library-5.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="501fc3630600b339ae2690afc9c658e9e9d8040f"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/jericho-html-3.3-03fd56ddcd1f0cf519aa3e550e1d56420bfa8c1d.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/jericho-html-3.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/jsoup-1.7.3-55f1918708cac404a2de7732cac720458cb5f8ad.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/classes-636b74175f33b17849213b178f22b5aeea83554a.jar"
+        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+    <item
+        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-5aef04f92c3688e4a6ce64a941a3c17f79cddc7a.jar"
+        jar="/Users/SCOUTLEE/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+
+</pre-dex-items>
