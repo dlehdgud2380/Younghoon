@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:id="@+id/titlebox">
+    <TextView
+        android:id="@+id/Title"
+        android:text="불러오는 중"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#33b5e5"/>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        card_view:cardCornerRadius="1dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/titlebox"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infobox"
+        android:layout_marginTop="-2dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignLeft="@+id/view2"
+        android:layout_alignStart="@+id/view2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingTop="6dp"
+            android:textColor="#000"
+            android:text="등록일: "
+            android:id="@+id/DateTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:text="작성자:"
+            android:id="@+id/WriterTitle"
+            android:layout_below="@+id/DateTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:text="불러오는 중"
+            android:id="@+id/Date"
+            android:layout_marginLeft="1dp"
+            android:layout_alignBottom="@+id/DateTitle"
+            android:layout_toRightOf="@+id/DateTitle"
+            android:layout_toEndOf="@+id/DateTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:text="불러오는 중"
+            android:id="@+id/Writer"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignTop="@+id/WriterTitle"
+            android:layout_toRightOf="@+id/WriterTitle"
+            android:layout_toEndOf="@+id/WriterTitle" />
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        card_view:cardCornerRadius="1dp"
+        android:id="@+id/view3"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wvbox"
+        android:layout_below="@+id/infobox"
+        tools:ignore="WebViewLayout">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView1">
+        </WebView>
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        card_view:cardCornerRadius="1dp"
+        android:id="@+id/view4"
+        android:layout_below="@+id/view3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/donwnloadbox"
+            android:layout_below="@+id/infobox"
+            tools:ignore="WebViewLayout">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/downloadText"
+    android:text="이카즈치쨩 카와이"
+    android:gravity="center"
+    android:textColor="#000"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

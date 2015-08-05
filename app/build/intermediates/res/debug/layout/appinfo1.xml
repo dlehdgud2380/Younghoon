@@ -1,85 +1,53 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context="${relativePackage}.${activityClass}">
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                tools:context="${relativePackage}.${activityClass}">
 
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_alignEnd="@+id/ImageView4"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/ImageView4"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_marginTop="36dp"
-        android:gravity="center"
-        android:scaleType="fitCenter"
-        android:src="@drawable/ic_launcher" />
+            android:id="@+id/imageView1"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="41dp"
-        android:layout_toLeftOf="@+id/textView1"
-        android:layout_toStartOf="@+id/textView1"
-        android:src="@drawable/facebook" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="스마트 영훈!"
+            android:textColor="#fff"
+            android:textSize="10dp"/>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:text="스마트 영훈!"
-        android:textColor="#fff"
-        android:textSize="10dp" />
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="YoungHoon 2.0"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
-        android:text="YoungHoon 2.0"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp"
-        android:text="SNS로 공유하기"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#33b5e5" />
-
-    <ImageView
-        android:id="@+id/ImageView4"
-        android:layout_width="35dp"
-        android:layout_height="30dp"
-        android:layout_alignBottom="@+id/imageView3"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_toRightOf="@+id/textView1"
-        android:scaleType="fitXY"
-        android:src="@drawable/kakaotalk" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/story_android_144x144" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Version 2.1 BETA1"
+            android:id="@+id/textView9"
+            android:textColor="#fff"
+            android:layout_marginTop="81dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
-<!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/layout/appinfo1.xml -->
+<!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/layout/appinfo1.xml -->

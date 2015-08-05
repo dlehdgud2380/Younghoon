@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/button_default" />
-</selector> <!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/drawable/button_style.xml -->
+    <item android:drawable="@drawable/button_default"/>
+</selector> <!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/drawable/button_style.xml -->

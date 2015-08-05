@@ -1,140 +1,28 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/background"
-    android:screenOrientation="landscape"
-    tools:context=".MealActivity">
+<?xml version="1.0" encoding="utf-8"?>
 
-    <LinearLayout
-        android:id="@+id/container"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.scoutlee.yhhs.SlidingTabLayout
+        android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
-        android:paddingBottom="10dp">
+        android:background="?colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
 
-        <TextView
-            android:id="@+id/lunch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="@string/lunch"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swiperefresh"/> -->
 
-        <TextView
-            android:id="@+id/lunchmon"
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/lunchtue"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/lunchwed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/lunchthu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/lunchfri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/dinner"
-
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinnermon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinnertue"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinnerwed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinnerthu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-        <TextView
-            android:id="@+id/dinnerfri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg"
-            android:padding="10dp"
-            android:text="New Text"
-            android:textColor="#33b5e5" />
-
-    </LinearLayout>
-</ScrollView>
-<!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/layout/meal.xml -->
+            android:layout_height="0px"
+            android:layout_weight="1"/>
+</LinearLayout><!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/layout/meal.xml -->

@@ -1,25 +1,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background">
 
     <ListView
-        android:id="@+id/listView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:divider="#999999"
-        android:dividerHeight="0.5dp" />
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#999999"
+            android:dividerHeight="0.5dp"/>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:padding="5dp"
-        android:text="@string/schooletter"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#33b5e5" />
-</RelativeLayout><!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/layout/schooletter.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/layout/schooletter.xml -->

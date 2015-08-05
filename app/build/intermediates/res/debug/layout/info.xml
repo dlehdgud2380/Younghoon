@@ -1,171 +1,191 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context="${relativePackage}.${activityClass}">
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            tools:context="${relativePackage}.${activityClass}">
 
     <RelativeLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="2376dp"
-        android:layout_margin="10dp"
-        android:gravity="top"
-        android:orientation="vertical"
-        android:paddingBottom="10dp">
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="2376dp"
+            android:layout_margin="10dp"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
 
         <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:text="교장선생님 말씀"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="교장선생님 말씀"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#33b5e5"/>
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView1"
-            android:layout_marginTop="15dp"
-            android:text="@string/principal_say"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="#33b5e5" />
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="15dp"
+                android:text="@string/principal_say"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#33b5e5"/>
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/textView3"
-            android:layout_centerHorizontal="true"
-            android:text="@string/principal_name"
-            android:textColor="#33b5e5" />
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:text="@string/principal_name"
+                android:textColor="#33b5e5"/>
 
         <TextView
-            android:id="@+id/TextView01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView3"
-            android:layout_marginTop="150dp"
-            android:text="학교상징"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="150dp"
+                android:text="학교상징"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#33b5e5"/>
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView2"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/schoolsymbol2" />
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/schoolsymbol2"/>
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView3"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/schoolsymbol3" />
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView3"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/schoolsymbol3"/>
 
         <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView4"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/schoolsymbol4" />
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/imageView4"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/schoolsymbol4"/>
 
         <TextView
-            android:id="@+id/TextView02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView5"
-            android:layout_marginTop="150dp"
-            android:text="찾아오시는 길"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView5"
+                android:layout_marginTop="130dp"
+                android:text="찾아오시는 길"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#33b5e5"/>
 
         <TextView
-            android:id="@+id/TextView03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView8"
-            android:layout_below="@+id/imageView8"
-            android:layout_marginTop="150dp"
-            android:text="교실배치도"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#33b5e5" />
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView7"
+                android:layout_marginTop="130dp"
+                android:layout_toEndOf="@+id/TextView01"
+                android:text="학교내부도"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#33b5e5"/>
 
         <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/imageView6"
-            android:layout_marginTop="308dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/bus" />
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView8"
+                android:scaleType="fitXY"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/bus"/>
 
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/TextView02"
-            android:src="@drawable/map" />
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/TextView02"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/map"/>
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/TextView01"
-            android:layout_marginTop="38dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/schoolsymbol1" />
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/TextView01"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/schoolsymbol1"/>
 
         <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignRight="@+id/TextView01"
-            android:layout_below="@+id/textView1"
-            android:layout_marginTop="34dp"
-            android:src="@drawable/principal" />
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/TextView01"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/principal"/>
 
         <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/imageView6"
-            android:layout_marginTop="83dp"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/bus2" />
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView6"
+                android:scaleType="fitXY"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/bus2"/>
 
         <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:background="@drawable/cardbg2"
-            android:src="@drawable/inschool" />
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/TextView03"
+                android:scaleType="fitXY"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cardbg"
+                android:src="@drawable/inschool"/>
 
     </RelativeLayout>
 </ScrollView>
-<!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/layout/info.xml -->
+<!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/layout/info.xml -->

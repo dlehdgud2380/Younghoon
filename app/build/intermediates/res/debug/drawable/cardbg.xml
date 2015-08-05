@@ -22,18 +22,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             android:dither="true"
             android:shape="rectangle">
 
-            <corners android:radius="2dp" />
+            <corners android:radius="2dp"/>
 
-            <solid android:color="@android:color/transparent" />
+            <solid android:color="@android:color/transparent"/>
             <stroke
                 android:width="0.5px"
-                android:color="#ffffff" />
+                android:color="#ffffff"/>
 
             <padding
                 android:bottom="2dp"
                 android:left="0.5dp"
                 android:right="0.5dp"
-                android:top="0.5dp" />
+                android:top="0.5dp"/>
         </shape>
     </item>
-</layer-list><!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/drawable/cardbg.xml -->
+</layer-list><!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/drawable/cardbg.xml -->

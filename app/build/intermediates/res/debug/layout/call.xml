@@ -1,26 +1,55 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/callactivity"
     android:scaleType="centerCrop"
-    tools:context="com.scoutlee.younghoon.CallActivity">
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.scoutlee.yhhs.CallActivity">
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:textSize="30dp"
+        android:text="교무실로 통화하기"
+        android:textColor="#33b5e5"
+        android:background="@drawable/cardbg"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="행정실로 통화하기"
+        android:textColor="#33b5e5"
+        android:background="@drawable/cardbg"
+        android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/call2" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/call1" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="상담이 필요하신가요?"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp" />
 
 </RelativeLayout>
-<!-- From: file:/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/src/main/res/layout/call.xml -->
+<!-- From: file:/C:/Users/DongHyung/Desktop/Project_YoungHoon/SmartYoungHoon/app/src/main/res/layout/call.xml -->

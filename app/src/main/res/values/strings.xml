@@ -3,12 +3,17 @@
 
     <string-array name="drawer_titles">
         <item>영훈고등학교앱</item>
-        <item>Version 2.0 Beta #4</item>
+        <item>Version 2.0</item>
         <item>Powered by Influx</item>
     </string-array>
 
-    <string name="kakao_app_key">76fc87325149dc5465e92d78cffce032 </string>
+    <string name="kakao_app_key">76fc87325149dc5465e92d78cffce032</string>
     <string name="kakao_scheme">kakao76fc87325149dc5465e92d78cffce032</string>
+    <string name="monmeal">월요일</string>
+    <string name="tuemeal">화요일</string>
+    <string name="wedmeal">수요일</string>
+    <string name="thumeal">목요일</string>
+    <string name="frimeal">금요일</string>
     <string name="kakaolink_host">kakaolink</string>
     <string name="app_name">영훈 2.0</string>
     <string name="title_activity_main_tab1">MainTab1</string>
@@ -18,18 +23,18 @@
     <string name="title_activity_call">문의</string>
     <string name="action_settings">Settings</string>
     <string name="lunch">점심</string>
+    <string name="lunchinfo"></string>
     <string name="dinner">저녁</string>
-    <string name="monday">월요일</string>
-    <string name="tuesday">화요일</string>
-    <string name="wednsday">수요일</string>
-    <string name="thursday">목요일</string>
-    <string name="friday">금요일</string>
+    <string name="dinnerinfo"></string>
     <string name="loading">불러오는 중입니다. 뜨지않으면 뒤로가서 재접속해주세요</string>
     <string name="title_activity_schooletter">가정통신문</string>
     <string name="schooletter">최근으로 부터 15개의 정보를 불러옵니다.</string>
     <string name="title_activity_info">영훈고등학교에 대하여</string>
-    <string name="principal_say">우리 영훈고는 1973년 개교 이래 3만여 명의 졸업생이 사회 각계각층에서 훌륭한 역할을 담당하는 인재의 산실이 되고 있습니다. 이제는 서울의 명문을 넘어 대한민국에서 제일 자랑스런 영훈고가 되기 위한 재도약을 준비하고 있습니다.
-  영훈고는 ‘창의적인 글로벌 리더의 양성’이라는 교육목표로 창의적인 인재, 글로벌 인재, 역량있는 지도자 육성을 위해 3가지 차원에서 특색있는 교육을 실시하고 있습니다. 학생들이 자신의 꿈을 찾고 끼를 키울 수 있도록 다양한 교육과정과 프로그램도 운영하고 있습니다. 학생을 위하는 일이고 교육적인 일이라면 우리 학교 선생님들은 최선을 다해 노력하겠습니다. \n\n영훈고등학교 교장 황 영 남</string>
+    <string name="principal_say">우리 영훈고는 1973년 개교 이래 3만여 명의 졸업생이 사회 각계각층에서 훌륭한 역할을 담당하는 인재의 산실이 되고 있습니다. 이제는 서울의 명문을 넘어
+        대한민국에서 제일 자랑스런 영훈고가 되기 위한 재도약을 준비하고 있습니다.
+        영훈고는 ‘창의적인 글로벌 리더의 양성’이라는 교육목표로 창의적인 인재, 글로벌 인재, 역량있는 지도자 육성을 위해 3가지 차원에서 특색있는 교육을 실시하고 있습니다. 학생들이 자신의 꿈을 찾고 끼를
+        키울 수 있도록 다양한 교육과정과 프로그램도 운영하고 있습니다. 학생을 위하는 일이고 교육적인 일이라면 우리 학교 선생님들은 최선을 다해 노력하겠습니다. \n\n영훈고등학교 교장 황 영 남
+    </string>
     <string name="principal_name">Ph. D 황영남</string>
     <string name="title_activity_app_splash">AppSplash</string>
     <string name="title_activity_splash">SplashActivity</string>
@@ -49,19 +54,12 @@
     <string name="title_activity_second_grade_test">2학년 시험범위</string>
     <string name="title_activity_third_grade_test">3학년 시험범위</string>
     <string name="title_activity_time_table_image">시간표 확인</string>
-    <string name="title_activity_schedule">학사일정(2014)</string>
-    <string name="title_section1">1월</string>
-    <string name="title_section2">2월</string>
-    <string name="title_section3">3월</string>
-    <string name="title_section4">4월</string>
-    <string name="title_section5">5월</string>
-    <string name="title_section6">6월</string>
-    <string name="title_section7">7월</string>
-    <string name="title_section8">8월</string>
-    <string name="title_section9">9월</string>
-    <string name="title_section10">10월</string>
-    <string name="title_section11">11월</string>
-    <string name="title_section12">12월</string>
+    <string name="title_activity_schedule">학사일정</string>
+    <string name="title_section1">메인</string>
+    <string name="title_section2">공지사항</string>
+    <string name="title_section3">편의기능</string>
+    <string name="title_section4">1학기</string>
+    <string name="title_section5">2학기</string>
     <string name="title_activity_january">January</string>
     <string name="title_activity_febrary">Febrary</string>
     <string name="title_activity_march">March</string>
@@ -79,5 +77,14 @@
     <string name="title_activity_appinfo2">개발자 정보</string>
     <string name="title_activity_appinfo3">버그리포트</string>
     <string name="title_activity_caculator">평균계산기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_schooletter_web_view">가정통신문</string>
+    <string name="title_activity_dinner_popup">석식확인</string>
+    <string name="nodata">급식정보가 없습니다.(자율휴업일, 학교기념일의 이유로 없습니다.)</string>
+    <string name="not_loaded_yet">급식을 불러오는 중</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notice">Notice</string>
 
 </resources>

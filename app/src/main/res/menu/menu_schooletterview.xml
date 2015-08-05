@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.scoutlee.yhhs.SchooletterView">
+
+    <item
+            android:id="@+id/Browser"
+            android:orderInCategory="100"
+            android:title="웹브라우저로 보기"
+            app:showAsAction="always"/>
+
+</menu>

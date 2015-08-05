@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/classes-846eefc0b9eb4f75e7ecfcc501a9abfe3badeccf.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-36ff01d0273cb2f279929ccbee9be37345966d2f.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d258c66b039a06694f7d7f716e1b14077db9e6d7.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\classes-5b0aa93c8d0cdaaabcbba8cc9f4bb782727d58a5.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/android_meal_library-5-58842c3858fe629df8e494a062ba457b5a56c679.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/android_meal_library-5.jar"
+        jar="C:\Users\DongHyung\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="501fc3630600b339ae2690afc9c658e9e9d8040f"/>
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-bbb147639fd1c8ff871b9a575561b5a1afddc5de.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/jericho-html-3.3-03fd56ddcd1f0cf519aa3e550e1d56420bfa8c1d.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/jericho-html-3.3.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029"/>
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\classes-7b7e19dfdcad918a5614f4b1477678debe332e9b.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/jsoup-1.7.3-55f1918708cac404a2de7732cac720458cb5f8ad.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/libs/jsoup-1.7.3.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\libs\jsoup-1.7.3.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da"/>
+        revision="22.0.1"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-24af15f8668f64c912cdcb5bfa25681becd9010a.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/classes-636b74175f33b17849213b178f22b5aeea83554a.jar"
-        jar="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\classes-b370043b7971596063ca13cd6f00c25b10d3be13.jar" />
+    </item>
     <item
-        dex="/Users/SCOUTLEE/Desktop/SmartYoungHoon(android_studio)/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-5aef04f92c3688e4a6ce64a941a3c17f79cddc7a.jar"
-        jar="/Users/SCOUTLEE/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jar="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\libs\jericho-html-3.3.jar"
         jumboMode="false"
-        revision="21.0.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        revision="22.0.1"
+        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029">
+        <dex dex="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\pre-dexed\debug\jericho-html-3.3-c100921c77c06b4aa1928d92c173cbb44357db5e.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

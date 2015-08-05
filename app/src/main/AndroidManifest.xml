@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.scoutlee.younghoon"
-    android:versionCode="1"
-    android:versionName="2.0" >
+    package="com.scoutlee.yhhs"
+    android:versionCode="2"
+    android:versionName="2.0.0" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
-
-    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/Theme.AppCompat" >
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="com.scoutlee.younghoon.MainActivity"
-            android:label="@string/app_name" >
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,62 +27,87 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.scoutlee.younghoon.AppInfoActivity"
-            android:label="@string/title_activity_app_info" />
+            android:name=".AppInfoActivity"
+            android:label="@string/title_activity_app_info"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.CallActivity"
-            android:label="@string/title_activity_call" />
+            android:name=".CallActivity"
+            android:label="@string/title_activity_call"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.SchooletterActivity"
-            android:label="@string/title_activity_schooletter" />
+            android:name=".SchooletterActivity"
+            android:label="@string/title_activity_schooletter"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.InfoActivity"
-            android:label="@string/title_activity_info" />
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.SplashActivity"
-            android:label="@string/title_activity_splash" />
+            android:name=".TimeTable"
+            android:label="@string/title_activity_time_table"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.TimeTable"
-            android:label="@string/title_activity_time_table" />
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.WebActivity"
-            android:label="@string/title_activity_web" />
+            android:name=".FirstGradeActivity"
+            android:label="@string/title_activity_first_grade"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.FirstGradeActivity"
-            android:label="@string/title_activity_first_grade" />
+            android:name=".SecondGradeActivity"
+            android:label="@string/title_activity_second_grade"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.SecondGradeActivity"
-            android:label="@string/title_activity_second_grade" />
+            android:name=".ThirdGradeActivity"
+            android:label="@string/title_activity_third_grade"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.ThirdGradeActivity"
-            android:label="@string/title_activity_third_grade" />
+            android:name=".SchoolTestActivity"
+            android:label="@string/title_activity_school_test"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.AfterSchoolActivity"
-            android:label="@string/title_activity_after_school" />
+            android:name=".FirstGradeTestActivity"
+            android:label="@string/title_activity_first_grade_test"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.ScheduleActvity"
-            android:label="@string/title_activity_schedule" />
+            android:name=".SecondGradeTestActivity"
+            android:label="@string/title_activity_second_grade_test"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.SchoolTestActivity"
-            android:label="@string/title_activity_school_test" />
+            android:name=".ThirdGradeTestActivity"
+            android:label="@string/title_activity_third_grade_test"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.FirstGradeTestActivity"
-            android:label="@string/title_activity_first_grade_test" />
+            android:name=".TimeTableImage"
+            android:label="@string/title_activity_time_table_image"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.SecondGradeTestActivity"
-            android:label="@string/title_activity_second_grade_test" />
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.ThirdGradeTestActivity"
-            android:label="@string/title_activity_third_grade_test" />
+            android:name=".CaculatorActivity"
+            android:label="@string/title_activity_caculator"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.TimeTableImage"
-            android:label="@string/title_activity_time_table_image" />
+            android:name=".SchooletterView"
+            android:label="@string/title_activity_schooletter_web_view"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.scoutlee.younghoon.ScheduleActivity"
-            android:label="@string/title_activity_schedule" />
+            android:name=".DinnerPopup"
+            android:label="@string/title_activity_dinner_popup"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog" >
+        </activity>
         <activity
-            android:name="com.scoutlee.younghoon.CaculatorActivity"
-            android:label="@string/title_activity_caculator" >
+            android:name=".MealActivity"
+            android:label="@string/title_activity_meal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:label="@string/title_activity_notice" >
         </activity>
     </application>
 
