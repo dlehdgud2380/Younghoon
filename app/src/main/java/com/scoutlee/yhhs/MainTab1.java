@@ -177,6 +177,7 @@ public class MainTab1 extends Fragment implements OnClickListener {
 
         } else {
             Toast.makeText(getActivity(), "급식정보를 불러오지 못하였습니다. WIFI또는 3G, LTE에 연결해주세요.", Toast.LENGTH_LONG).show();
+            lunch.setText("급식불러오기 오류!");
         }
 
         return v;

@@ -33,7 +33,7 @@
             android:layout_below="@+id/imageView1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp"
-            android:text="YoungHoon 2.0"
+            android:text="YoungHoon 2.1"
             android:textColor="#fff"
             android:textSize="25dp"
             android:textStyle="bold"/>
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Version 2.1 BETA1"
+            android:text="Version 2.1 BETA2"
             android:id="@+id/textView9"
             android:textColor="#fff"
             android:layout_marginTop="81dp"

@@ -123,6 +123,7 @@ public class DinnerPopup extends ActionBarActivity {
 
         } else {
             Toast.makeText(getApplicationContext(), "급식정보를 불러오지 못하였습니다. WIFI또는 3G, LTE에 연결해주세요.", Toast.LENGTH_LONG).show();
+            dinner.setText("급식불러오기 오류!");
         }
 
         Button button2 = (Button) findViewById(R.id.button2);

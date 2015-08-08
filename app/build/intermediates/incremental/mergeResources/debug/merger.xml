@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="21.0.3"><source path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\res"><file path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\res\values\values.xml" qualifiers=""><declare-styleable name="CardView">
-
-        <!-- Background color for CardView. -->
-        <attr format="color" name="cardBackgroundColor"/>
-        <!-- Corner radius for CardView. -->
-        <attr format="dimension" name="cardCornerRadius"/>
-        <!-- Elevation for CardView. -->
-        <attr format="dimension" name="cardElevation"/>
-        <!-- Maximum Elevation for CardView. -->
-        <attr format="dimension" name="cardMaxElevation"/>
-        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
-        <attr format="boolean" name="cardUseCompatPadding"/>
-        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
-        <attr format="boolean" name="cardPreventCornerOverlap"/>
-        <!-- Inner padding between the edges of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPadding"/>
-        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingLeft"/>
-        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingRight"/>
-        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingTop"/>
-        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingBottom"/>
-    </declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
+<merger version="3"><dataSet config="22.2.1"><source path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\res"><file path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\res\values\values.xml" qualifiers=""><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
         <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
         <item name="cardElevation">@dimen/cardview_default_elevation</item>
@@ -1364,7 +1340,7 @@
         대한민국에서 제일 자랑스런 영훈고가 되기 위한 재도약을 준비하고 있습니다.
         영훈고는 ‘창의적인 글로벌 리더의 양성’이라는 교육목표로 창의적인 인재, 글로벌 인재, 역량있는 지도자 육성을 위해 3가지 차원에서 특색있는 교육을 실시하고 있습니다. 학생들이 자신의 꿈을 찾고 끼를
         키울 수 있도록 다양한 교육과정과 프로그램도 운영하고 있습니다. 학생을 위하는 일이고 교육적인 일이라면 우리 학교 선생님들은 최선을 다해 노력하겠습니다. \n\n영훈고등학교 교장 황 영 남
-    </string><string name="wedmeal">수요일</string><string name="title_activity_main_tab_fragment">MainTabFragment</string><string name="title_activity_after_school">AfterSchoolActivity</string><string name="kakao_scheme">kakao76fc87325149dc5465e92d78cffce032</string><string name="frimeal">금요일</string><string name="title_section5">2학기</string><string name="title_section4">1학기</string><string name="title_activity_october">October</string><string name="not_loaded_yet">급식을 불러오는 중</string><string name="title_activity_second_grade">2학년 시간표</string><string name="title_activity_april">April</string><string name="title_section1">메인</string><string name="title_section3">편의기능</string><string name="title_section2">공지사항</string><string name="title_activity_august">August</string></file><file path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppnotitlebarTheme" parent="AppBaseTheme">
+    </string><string name="wedmeal">수요일</string><string name="title_activity_main_tab_fragment">MainTabFragment</string><string name="title_activity_after_school">AfterSchoolActivity</string><string name="kakao_scheme">kakao76fc87325149dc5465e92d78cffce032</string><string name="frimeal">금요일</string><string name="nodata3">첨부파일이 없습니다.</string><string name="nodata2">가정통신문 정보가 없습니다.</string><string name="title_section5">2학기</string><string name="title_section4">1학기</string><string name="title_activity_october">October</string><string name="not_loaded_yet">급식을 불러오는 중</string><string name="title_activity_second_grade">2학년 시간표</string><string name="title_activity_april">April</string><string name="title_section1">메인</string><string name="title_section3">편의기능</string><string name="title_section2">공지사항</string><string name="title_activity_august">August</string></file><file path="C:\Users\DongHyung\Desktop\Project_YoungHoon\SmartYoungHoon\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppnotitlebarTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
         <item name="colorPrimary">#33b5e5</item>
         <item name="android:windowContentOverlay">@null</item>

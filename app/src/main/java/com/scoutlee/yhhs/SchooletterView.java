@@ -194,6 +194,7 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
                     Uri uri = Uri.parse(DOWNURL);
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "첨부파일을 여시려면 Play스토어를\n이용하여 HWP관련뷰어를 받으시고 열어주세요!", Toast.LENGTH_LONG).show();
                     break;
 
             }
