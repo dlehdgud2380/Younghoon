@@ -29,17 +29,16 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
     WebView WEBVIEW;
     String DATA;
     String DOWNURL;
+    String DOWNINFO;
     //private long latestId = -1;
     //private Uri urlToDownload;
     //private DownloadManager downloadManager;
     //private DownloadManager.Request request;
 
 
-    private final Handler handler = new android.os.Handler()
-    {
+    private final Handler handler = new android.os.Handler() {
         @Override
-        public void handleMessage(Message msg)
-        {
+        public void handleMessage(Message msg) {
 
         }
     };
@@ -53,10 +52,10 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
 
         String Title = getIntent().getStringExtra("title");
         String Date = getIntent().getStringExtra("date");
-        String Writer= getIntent().getStringExtra("writer");
+        String Writer = getIntent().getStringExtra("writer");
 
         URL = getIntent().getStringExtra("URL");
-        WEBVIEW = (WebView)findViewById(R.id.webView1);
+        WEBVIEW = (WebView) findViewById(R.id.webView1);
 
         TextView txtTitle = (TextView) findViewById(R.id.Title);
         TextView txtDate = (TextView) findViewById(R.id.Date);
@@ -98,44 +97,53 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
 
         final Handler mHandler = new Handler();
 
-        new Thread()
-        {
+        new Thread() {
 
-            public void run()
-            {
-                try{
+            public void run() {
+                try {
 
                     Document doc = Jsoup.connect(URL).get();
                     Elements element = doc.select("div.board_read_body");
-                    Elements DownURL= doc.select("div>dl>dd>a");
+                    Elements DownURL = doc.select("div>dl>dd>a");
+                    Elements DownINFO = doc.select("div>dl>dd>a");
 
                     String s[] = new String[element.size()];
-                    for(int i=0;i<element.size();i++){
-                        s[i]=element.get(i).text().toString();
+                    for (int i = 0; i < element.size(); i++) {
+                        s[i] = element.get(i).text().toString();
                     }
-                    for(int i=0;i<element.size();i++){
+                    for (int i = 0; i < element.size(); i++) {
                         Log.e("asdf", s[i]);
                     }
 
                     String downURL[] = new String[DownURL.size()];
-                    for(int j=0;j<DownURL.size();j++){
-                        //downURL[j]=DownURL.get(j).attr("href");
-                        downURL[j]=DownURL.get(j).text().toString();
+                    for (int j = 0; j < DownURL.size(); j++) {
+                        downURL[j] = DownURL.get(j).attr("href");
+                    }
+
+                    String downINFO[] = new String[DownINFO.size()];
+                    for (int k = 0; k < DownINFO.size(); k++) {
+                        downINFO[k] = DownINFO.get(k).text().toString();
                     }
 
 
                     DATA = element.toString();
-                    DOWNURL = "http://www.younghoon.hs.kr"+downURL[0];
-                    Log.d("DownDATA", DOWNURL);
+
+                    try {
+                        DOWNINFO = downINFO[0];
+                        DOWNURL = "http://www.younghoon.hs.kr" + downURL[0];
+                        Log.d("DownDATA", DOWNURL);
+                    } catch (Exception e) {
+                        DOWNINFO = "첨부파일이 없습니다.";
+                        DOWNURL = "null";
+                    }
+
                     //DownloadFromLink(DOWNURL);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
 
-                mHandler.post(new Runnable()
-                {
-                    public void run()
-                    {
+                mHandler.post(new Runnable() {
+                    public void run() {
                         WEBVIEW.getSettings().setJavaScriptEnabled(true);
                         WEBVIEW.getSettings().setBuiltInZoomControls(true);
                         WEBVIEW.getSettings().setDisplayZoomControls(false);
@@ -146,9 +154,9 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
                             }
                         });
 //                        WEBVIEW.loadData(data,"text/html","utf-8");
-                        if(DATA==null){
+                        if (DATA == null) {
                             DATA = getResources().getString(R.string.nodata2);
-                        }else if(DATA.equals("<p class=\"바탕글\"></p")){
+                        } else if (DATA.equals("<p class=\"바탕글\"></p")) {
                             DATA = getResources().getString(R.string.nodata2);
                         } else {
                         }
@@ -159,12 +167,12 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
 
                         TextView txtDownload = (TextView) findViewById(R.id.downloadText);
 
-                        if(DOWNURL == null) {
-                            DOWNURL = "첨부파일이 없습니다.";
-                            txtDownload.setText(DOWNURL);
+                        if (DOWNINFO == null) {
+                            DOWNINFO = "첨부파일이 없습니다.";
+                            txtDownload.setText(DOWNINFO);
 
-                        }else {
-                            txtDownload.setText(DOWNURL);
+                        } else {
+                            txtDownload.setText(DOWNINFO);
                         }
 
                     }
@@ -177,15 +185,22 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
     @Override
     public void onClick(View v) {
 
-        switch (v.getId()) {
+        try {
 
-            case R.id.downloadText:
-                Uri uri = Uri.parse(DOWNURL);
-                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
-                startActivity(intent);
-                break;
+
+            switch (v.getId()) {
+
+                case R.id.downloadText:
+                    Uri uri = Uri.parse(DOWNURL);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    break;
+
+            }
+
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), "첨부파일이 없습니다.", Toast.LENGTH_LONG).show();
         }
-    }
 
    /* public void DownloadFromLink(String url){
         downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
@@ -198,4 +213,5 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
         Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).mkdirs();
         latestId = downloadManager.enqueue(request);
     }*/
+    }
 }
