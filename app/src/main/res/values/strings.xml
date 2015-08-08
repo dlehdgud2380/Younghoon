@@ -81,6 +81,8 @@
     <string name="title_activity_schooletter_web_view">가정통신문</string>
     <string name="title_activity_dinner_popup">석식확인</string>
     <string name="nodata">급식정보가 없습니다.(자율휴업일, 학교기념일의 이유로 없습니다.)</string>
+    <string name="nodata2">가정통신문 정보가 없습니다.</string>
+    <string name="nodata3">첨부파일이 없습니다.</string>
     <string name="not_loaded_yet">급식을 불러오는 중</string>
 
 <!-- TODO: Remove or change this placeholder text -->

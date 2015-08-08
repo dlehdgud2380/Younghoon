@@ -145,7 +145,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/downloadText"
-    android:text="이카즈치쨩 카와이"
+    android:text="첨부파일 불러오는 중"
     android:gravity="center"
     android:textColor="#000"/>
 
