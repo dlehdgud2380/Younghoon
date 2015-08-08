@@ -18,7 +18,6 @@ import android.widget.Toast;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
@@ -30,7 +29,11 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
     WebView WEBVIEW;
     String DATA;
     String DOWNURL;
-    String DOWNINFO;
+    //private long latestId = -1;
+    //private Uri urlToDownload;
+    //private DownloadManager downloadManager;
+    //private DownloadManager.Request request;
+
 
     private final Handler handler = new android.os.Handler()
     {
@@ -64,7 +67,6 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
         txtTitle.setText(Title);
         txtDate.setText(Date);
         txtWriter.setText(Writer);
-        txtDownload.setText(DOWNINFO);
         networkTask();
 
         txtDownload.setOnClickListener(this);
@@ -92,8 +94,7 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
     }
 
 
-    private void networkTask()
-    {
+    private void networkTask() {
 
         final Handler mHandler = new Handler();
 
@@ -106,6 +107,7 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
 
                     Document doc = Jsoup.connect(URL).get();
                     Elements element = doc.select("div.board_read_body");
+                    Elements DownURL= doc.select("div>dl>dd>a");
 
                     String s[] = new String[element.size()];
                     for(int i=0;i<element.size();i++){
@@ -115,17 +117,17 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
                         Log.e("asdf", s[i]);
                     }
 
-                    Elements DownURL= doc.select("a:eq(3)");
-                    String DOWNURL = DownURL.attr("href");
+                    String downURL[] = new String[DownURL.size()];
+                    for(int j=0;j<DownURL.size();j++){
+                        //downURL[j]=DownURL.get(j).attr("href");
+                        downURL[j]=DownURL.get(j).text().toString();
+                    }
 
-                    Elements DownINFO = doc.select("a:eq(3)");
-                    String DOWNINFO = DownURL.attr("title");
 
                     DATA = element.toString();
-                    DOWNURL = DownURL.toString();
-                    DOWNINFO = DownINFO.toString();
-
-
+                    DOWNURL = "http://www.younghoon.hs.kr"+downURL[0];
+                    Log.d("DownDATA", DOWNURL);
+                    //DownloadFromLink(DOWNURL);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -145,13 +147,26 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
                         });
 //                        WEBVIEW.loadData(data,"text/html","utf-8");
                         if(DATA==null){
-                            DATA = getResources().getString(R.string.nodata);
+                            DATA = getResources().getString(R.string.nodata2);
                         }else if(DATA.equals("<p class=\"바탕글\"></p")){
-                            DATA = getResources().getString(R.string.nodata);
-                        }else{}
+                            DATA = getResources().getString(R.string.nodata2);
+                        } else {
+                        }
                         Log.d("DATA", DATA);
                         WEBVIEW.loadDataWithBaseURL(null, DATA, "text/html", "utf-8", null);
                         handler.sendEmptyMessage(0);
+
+
+                        TextView txtDownload = (TextView) findViewById(R.id.downloadText);
+
+                        if(DOWNURL == null) {
+                            DOWNURL = "첨부파일이 없습니다.";
+                            txtDownload.setText(DOWNURL);
+
+                        }else {
+                            txtDownload.setText(DOWNURL);
+                        }
+
                     }
                 });
 
@@ -169,8 +184,18 @@ public class SchooletterView extends ActionBarActivity implements View.OnClickLi
                 Intent intent = new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(intent);
                 break;
-
         }
-
     }
+
+   /* public void DownloadFromLink(String url){
+        downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+        urlToDownload = Uri.parse(url);
+        List<String> pathSegments = urlToDownload.getPathSegments();
+        request = new DownloadManager.Request(urlToDownload);
+        request.setTitle("다운로드 중");
+        request.setDescription("요청한 파일을 다운로드합니다");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, pathSegments.get(pathSegments.size() - 1));
+        Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).mkdirs();
+        latestId = downloadManager.enqueue(request);
+    }*/
 }

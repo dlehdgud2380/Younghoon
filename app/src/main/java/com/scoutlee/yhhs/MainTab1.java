@@ -119,15 +119,40 @@ public class MainTab1 extends Fragment implements OnClickListener {
                                         break;
                                     case 1 : lunch.setText("오늘은 급식이 없습니다");
                                         break;
-                                    case 2 : lunch.setText("\n" + lunchstring[1]);
+                                    case 2 :
+                                        if(lunchstring[1] == null) {
+                                            lunch.setText("오늘은 급식이 없습니다.");
+                                        } else {
+                                            lunch.setText("\n" + lunchstring[1]);
+                                        }
                                         break;
-                                    case 3 : lunch.setText("\n" + lunchstring[2]);
+                                    case 3 :
+                                        if(lunchstring[2] == null) {
+                                            lunch.setText("오늘은 급식이 없습니다.");
+                                        } else {
+                                            lunch.setText("\n" + lunchstring[2]);
+                                        }
                                         break;
-                                    case 4 : lunch.setText("\n" + lunchstring[3]);
+                                    case 4 :
+                                        if(lunchstring[3] == null) {
+                                            lunch.setText("오늘은 급식이 없습니다.");
+                                        } else {
+                                            lunch.setText("\n" + lunchstring[3]);
+                                        }
                                         break;
-                                    case 5 : lunch.setText("\n" + lunchstring[4]);
+                                    case 5 :
+                                        if(lunchstring[4] == null) {
+                                            lunch.setText("오늘은 급식이 없습니다.");
+                                        } else {
+                                            lunch.setText("\n" + lunchstring[4]);
+                                        }
                                         break;
-                                    case 6 : lunch.setText("\n" + lunchstring[5]);
+                                    case 6 :
+                                        if(lunchstring[5] == null) {
+                                            lunch.setText("오늘은 급식이 없습니다.");
+                                        } else {
+                                            lunch.setText("\n" + lunchstring[5]);
+                                        }
                                         break;
                                     case 7 : lunch.setText("오늘은 급식이 없습니다");
                                         break;
@@ -136,7 +161,7 @@ public class MainTab1 extends Fragment implements OnClickListener {
                                     dinnertue.setText(getString(R.string.tuesday) + ":\n\n" + dinnerstring[2]);
                                     dinnerwed.setText(getString(R.string.wednsday) + ":\n\n" + dinnerstring[3]);
                                     dinnerthu.setText(getString(R.string.thursday) + ":\n\n" + dinnerstring[4]);
-                                    dinnerfri.setText(getString(R.string.friday) + ":\n\n" + dinnerstring[5]);*/
+                                    dinnerfri.setText(geif(lunchstring == null)tString(R.string.friday) + ":\n\n" + dinnerstring[5]);*/
                                 }
                             }
 

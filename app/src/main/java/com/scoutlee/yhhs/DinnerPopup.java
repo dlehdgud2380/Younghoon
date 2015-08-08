@@ -72,15 +72,40 @@ public class DinnerPopup extends ActionBarActivity {
                                         break;
                                     case 1 : dinner.setText("오늘은 급식이 없습니다");
                                         break;
-                                    case 2 : dinner.setText("\n" + dinnerstring[1]);
+                                    case 2 :
+                                        if(dinnerstring[1] == null){
+                                            dinner.setText("오늘은 급식이 없습니다.");
+                                        }else {
+                                            dinner.setText("\n" + dinnerstring[1]);
+                                        }
                                         break;
-                                    case 3 : dinner.setText("\n" + dinnerstring[2]);
+                                    case 3 :
+                                        if(dinnerstring[2] == null){
+                                            dinner.setText("오늘은 급식이 없습니다.");
+                                        }else {
+                                            dinner.setText("\n" + dinnerstring[2]);
+                                        }
                                         break;
-                                    case 4 : dinner.setText("\n" + dinnerstring[3]);
+                                    case 4 :
+                                        if(dinnerstring[3] == null){
+                                            dinner.setText("오늘은 급식이 없습니다.");
+                                        }else {
+                                            dinner.setText("\n" + dinnerstring[3]);
+                                        }
                                         break;
-                                    case 5 : dinner.setText("\n" + dinnerstring[4]);
+                                    case 5 :
+                                        if(dinnerstring[4] == null){
+                                            dinner.setText("오늘은 급식이 없습니다.");
+                                        }else {
+                                            dinner.setText("\n" + dinnerstring[4]);
+                                        }
                                         break;
-                                    case 6 : dinner.setText("\n" + dinnerstring[5]);
+                                    case 6 :
+                                        if(dinnerstring[5] == null){
+                                            dinner.setText("오늘은 급식이 없습니다.");
+                                        }else {
+                                            dinner.setText("\n" + dinnerstring[5]);
+                                        }
                                         break;
                                     case 7 : dinner.setText("오늘은 급식이 없습니다");
                                         break;
