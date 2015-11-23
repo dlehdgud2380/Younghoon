@@ -57,7 +57,7 @@ MealLibarary Function: https://bitbucket.org/whdghks913/wondanghighschool/src
 
 JSoup: http://jsoup.org/
 
-Android Matrial Design, appcompat etc...: developer.android.com
+Android Matrial Design, appcompat etc...: http://developer.android.com
 
 School TimeTable: https://drive.google.com/file/d/0B54VcdUnEX5CSDd5UUJKOEVBNGs/edit?pli=1
 
