@@ -4,7 +4,30 @@ Younghoon Apps for Younghoon High School
 
 영훈고등학교를 위한 학교앱입니다.
 저의 첫 어플리케이션 프로젝트이기도 합니다.
+
+-New-
 영훈2.0의 마이너업데이트는 현재 해결 할 수 없는 컴파일오류(문법오류X)로 인해 개발이 중단 되었습니다.
 영훈3.0에서 새로운 프로젝트기반에 새로운 소스로 2.0과는 다른 앱으로 개발할 예정입니다.
 
 -----------------
+GNU General Public License Version 3 (or any later version)
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+
+-----------------
+
+어플리케이션 다운로드
+
+Google Play Store: https://play.google.com/store/apps/details?id=com.scoutlee.yhhs&hl=ko
+
+----------------
+
+개발자: 이동형(31424)
+학교연락처: 02-988-0266
+개발자연락처: 010-7360-0235
+이메일: younghoon@younghoon.hs.kr
+개발자 이메일: dlehdgud2380@icloud.com
