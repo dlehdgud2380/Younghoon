@@ -47,3 +47,20 @@ Google Play Store: https://play.google.com/store/apps/details?id=com.scoutlee.yh
 이메일: younghoon@younghoon.hs.kr
 
 개발자 이메일: dlehdgud2380@icloud.com
+
+-----------------
+참고 한 오픈소스
+
+network check and parse functions: https://github.com/sukso96100/zionhs
+
+MealLibarary Function: https://bitbucket.org/whdghks913/wondanghighschool/src
+
+JSoup: http://jsoup.org/
+
+Android Matrial Design, appcompat etc...: developer.android.com
+
+School TimeTable: https://drive.google.com/file/d/0B54VcdUnEX5CSDd5UUJKOEVBNGs/edit?pli=1
+
+
+
+
