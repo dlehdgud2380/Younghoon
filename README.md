@@ -16,9 +16,20 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/
+
+GNU 일반 공중 허가서 버전3(또는 그 이후 버전) 에 대한 더 자세한 사항은
+
+다음 웹사이트들를 방문하세요. 
+
+http://www.gnu.org/licenses/gpl.html
+
+http://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 -----------------
+For more details about Third Patry Notices, please read "NOTICES.txt" 제 3자 고지사항에 대한 자세한 정보는, "NOTICES.txt"를 읽어주세요.
+
+---------------
 
 어플리케이션 다운로드
 
