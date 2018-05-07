@@ -42,11 +42,9 @@ Google Play Store: https://play.google.com/store/apps/details?id=com.scoutlee.yh
 
 학교연락처: 02-988-0266
 
-개발자연락처: 010-7360-0235
-
 이메일: younghoon@younghoon.hs.kr
 
-개발자 이메일: dlehdgud2380@icloud.com
+개발자 이메일: dlehdgud2380@kookmin.ac.kr
 
 -----------------
 참고 한 오픈소스
