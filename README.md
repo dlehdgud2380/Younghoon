@@ -2,6 +2,12 @@
 
 Younghoon Apps for Younghoon High School
 
+| 메인                                 | 급식정보                               | 가정통신문                           |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| ![](https://i.imgur.com/fvVynZB.png) | ![](https://i.imgur.com/O77Xcxw.png) | ![](https://i.imgur.com/T0nWoWg.png) |
+| **세컨드 화면**                       | **학사일정**                           |        **공지사항**                   |
+| ![](https://i.imgur.com/XxQP4ED.png) | ![](https://i.imgur.com/7XqxT4N.png) | ![](https://i.imgur.com/2tE8fqf.png) |
+
 영훈고등학교를 위한 학교앱입니다.
 저의 첫 어플리케이션 프로젝트이기도 합니다.
 
